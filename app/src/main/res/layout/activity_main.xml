@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102341"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="317dp"
+        android:layout_height="328dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/vaamalogo1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-54dp"
+        android:layout_marginBottom="-11dp"
+        android:text="VERIFY IT! "
+        android:textColor="#ffffff"
+        android:textSize="48dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/LoginButtonMain"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-119dp"
+        android:background="@drawable/gradient1"
+        android:drawableLeft="@drawable/ic_person_login"
+        android:hint="Login"
+        android:onClick="login"
+        android:paddingLeft="10dp"
+        android:shadowColor="#171414"
+        android:shadowDx="70"
+        android:shadowDy="40"
+        android:shadowRadius="150"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/SignUpMain"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/LoginButtonMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-81dp"
+        android:background="@drawable/gradient1"
+        android:drawableLeft="@drawable/ic_person_register"
+        android:hint="Register"
+        android:onClick="register"
+        android:paddingLeft="10dp"
+        android:textColorHint="#E8E9E5"
+        android:textSize="18dp" />
+</RelativeLayout>

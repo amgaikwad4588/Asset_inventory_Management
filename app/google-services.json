@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "329033931107",
+    "firebase_url": "https://asset-inventory-app-60492-default-rtdb.firebaseio.com",
+    "project_id": "asset-inventory-app-60492",
+    "storage_bucket": "asset-inventory-app-60492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329033931107:android:bbac4b50ed5f5c12b15b56",
+        "android_client_info": {
+          "package_name": "com.example.admin.augscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLqVq40pYAdnFx90uJtoIdSWvc283U_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

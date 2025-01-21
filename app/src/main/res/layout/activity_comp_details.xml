@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#102341"
+    android:backgroundTint="#102341"
+    android:orientation="vertical"
+    tools:context=".Comp_details">
+
+    <EditText
+        android:id="@+id/Device_id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FEFEFE"
+        android:hint="   Device Id"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/SysType"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/Processor"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="#FEFEFE"
+        android:hint="   Processor"
+        android:textColor="#ffffff"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/SysType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <AutoCompleteTextView
+        android:id="@+id/SysType"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="#FEFEFE"
+        android:hint="  System type-32/64bit"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/OS_version"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Processor" />
+
+    <AutoCompleteTextView
+        android:id="@+id/OS_version"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FEFEFE"
+        android:hint="   OS Version"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/Installed_ram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SysType" />
+
+    <AutoCompleteTextView
+        android:id="@+id/Installed_ram"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#FEFEFE"
+        android:hint="   Installed RAM"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/ImgCam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OS_version" />
+
+    <ImageView
+        android:id="@+id/ImgCam"
+        android:layout_width="287dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/border"
+        android:elevation="1dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncam"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="637dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/gradient1"
+        android:text="Add Photo"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="637dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/gradient1"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="187dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="148dp"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cameraicon" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="68dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VerifyIt!</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="assigned">Assigned</string>
+    <string name="notassigned"> Not Assigned</string>
+
+    <string name="help">
+        <b>HOW TO ADD AN ASSET TO THE INVENTORY?</b><br/>
+      1. Create a new user by entering email and password and other details and log in to the app upon the logout activity. Log in directly if the user already exists.<br/>
+      2. For adding an item into the inventory simply click on the \'Add Asset\' and select item category as well as fill other details of that asset. Then scan the Barcode/QR code stuck on the asset to process further.<br/>
+      3. Based on the type of asset you\'ve chosen you will be navigated to another screen which will ask you to fill some more details about the asset including asset\'s realtime image.<br/>
+      4. Wait till the image gets uploaded and you are good to go!
+
+        <b>HOW TO DELETE AN ASSET FROM THE INVENTORY?</b><br/>
+
+     1. Create a new user by entering email and password and other details and log in to the app upon the logout activity. Log in directly if the user already exists.<br/>
+     2. For deleting an asset simply scan the Barcode/QR code stuck on the asset and click on \'Delete Item\'.<br/>
+
+        <b>HOW TO SEARCH FOR AN ASSET IN THE INVENTORY?</b><br/>
+
+     1. Create a new user by entering email and password and other details and log in to the app upon the logout activity. Log in directly if the user already exists.<br/>
+     2. In the Search bar manually enter the Barcode number and click on the search button.<br/>
+     3. Another way is to directly scan the Barcode/QR code stuck on the asset.<br/>
+     4. A list of assets matching your search will display on the screen.<br/>
+
+        <b>HOW TO VIEW THE ENTIRE INVENTORY?</b><br/>
+
+    1. Create a new user by entering email and password and other details and log in to the app upon the logout activity. Log in directly if the user already exists.<br/>
+    2. To view the entire inventory click on the \'View Inventory\' and select the asset category you want to view.<br/>
+    3. A list containing of the same category assets will be displayed.<br/></string>
+
+</resources>

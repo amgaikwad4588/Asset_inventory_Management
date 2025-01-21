@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#102341"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".scanItemsActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Search Asset"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <ImageButton
+            android:id="@+id/imageButtonsearch"
+            android:layout_width="72dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gradient1"
+            android:baselineAligned="true"
+            android:contentDescription="."
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            tools:ignore="VectorDrawableCompat" />
+
+        <EditText
+            android:id="@+id/searchfield"
+            android:layout_width="279dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-48dp"
+            android:background="#11AA9E9E"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:ems="10"
+            android:hint="Search Items"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textColorHint="#ffffff"
+            android:textSize="16dp"
+            tools:hint="Search here by barcode" />
+
+
+        <Button
+            android:id="@+id/searchbtnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/gradient1"
+            android:text="Search"
+            android:textColor="#FEFEFE" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

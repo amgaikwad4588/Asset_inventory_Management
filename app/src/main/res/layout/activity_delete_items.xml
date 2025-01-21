@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102341"
+    android:orientation="vertical"
+    tools:context=".deleteItemsActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="610dp"
+        android:gravity="center"
+        android:text="Delete Asset "
+        android:textColor="#ffffff"
+        android:textSize="47dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/barcodedelete"
+        android:layout_width="291dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="334dp"
+        android:background="#A1BFED"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Barcode Number"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonscandelete"
+        android:layout_width="250dp"
+        android:layout_height="68dp"
+
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/gradient1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Scan Bar/QR Code"
+        android:textColor="#FEFEFE"
+        android:textColorHint="#FEFEFE"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteItemToTheDatabasebtn"
+        android:layout_width="250dp"
+        android:layout_height="68dp"
+
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/gradient1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Delete Item"
+        android:textColor="#FEFEFE"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="441dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deletelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
